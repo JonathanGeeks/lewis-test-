@@ -2,7 +2,7 @@ import pygame
 import random
 import time
 
-#pygame.init()
+pygame.init()
 
 
 # Constants
@@ -11,6 +11,7 @@ SCREEN_HEIGHT = 750
 GRID_SIZE = 4 # This defines a 4x4 grid
 CELL_SIZE = 150
 MOLE_SIZE = 100
+YELLOW = (255,255,255)
 GRID_SPACING = 10 # Space between the tiles
 BACKGROUND_COLOR = (255, 255, 255) # 0, 0, 0, would be white, 255, 255, 255
 HOLE_COLOR = (139, 70, 18)
@@ -18,7 +19,7 @@ FPS = 30
 MOLE_TIME = 1 # Time a mole stays up in seconds
 GAME_TIME = 30 # Total game time in seconds
 start_time = time.time()
-
+#don't read this boss man
 
 
 # Other needed functions
