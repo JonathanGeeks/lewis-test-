@@ -6,17 +6,17 @@ import time
 
 
 # Constants
-SCREEN_WIDTH = 650
-SCREEN_HEIGHT = 750
+SCREEN_WIDTH = 1500
+SCREEN_HEIGHT = 1500
 GRID_SIZE = 4 # This defines a 4x4 grid
-CELL_SIZE = 150
-MOLE_SIZE = 100
+CELL_SIZE = 900
+MOLE_SIZE = 800
 GRID_SPACING = 10 # Space between the tiles
 BACKGROUND_COLOR = (255, 255, 255) # 0, 0, 0, would be white, 255, 255, 255
-HOLE_COLOR = (139, 70, 18)
-FPS = 30
+HOLE_COLOR = (130, 61, 18)
+FPS = 200
 MOLE_TIME = 1 # Time a mole stays up in seconds
-GAME_TIME = 30 # Total game time in seconds
+GAME_TIME = 300 # Total game time in seconds
 start_time = time.time()
 
 
